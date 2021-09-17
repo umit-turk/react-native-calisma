@@ -12,16 +12,16 @@ export default function Teslimatlar() {
     return (
         <TouchableOpacity onPress={goToSiparis} style={styles.deliverywithmap}>
         <View style={styles.isimtarih}>
-          <Text style={styles.name}>MUHAMMED SAGIR</Text>
+          <Text style={styles.name}>UMİT YASAR TURK</Text>
           <Text style={styles.date}>13 Ocak 2021, 12.00</Text>
         </View>
         <Text style={styles.address}>
-          Doğru Sk. Kandemir Altun Apt. No:17 K:1 D:3
+          Doğru Sk. ahmet AHMET Apt. No:10 K:10 D:1
         </Text>
         <Text style={styles.amount}>₺12,00 (1 Adet)</Text>
         <View style={styles.bottomInfo}>
         <View style={styles.plaka}>
-          <Text style={styles.plakaText}>16 NF 595</Text>
+          <Text style={styles.plakaText}>16 NF 1616</Text>
         </View>
         <View style={styles.bottomAdress}>
             <Text style={styles.bottomAddressText}>yıldırım davutdede</Text>

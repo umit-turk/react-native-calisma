@@ -68,7 +68,7 @@ export default function SiparisScreen() {
                 </TouchableOpacity>
             </View>
             <View style={styles.musteriadi}>
-            <Text style={styles.musteriText}>Merve Meryem Kırımlı</Text>
+            <Text style={styles.musteriText}>Umit Yasar Turk</Text>
             </View>
             <View style={styles.address}>
                 <Text style={styles.addressText}>Teslimat Adresi</Text>
@@ -80,7 +80,7 @@ export default function SiparisScreen() {
                 </TouchableOpacity>
             </View>
             <View style={styles.adresAlani}>
-                <Text  style={styles.addressContent}>Kandemir Altun Apt. No:17 K:1 D:3 Selimzade Mh. Doğru Sk. Yıldırım/Bursa</Text>
+                <Text  style={styles.addressContent}>Ahmet Altun Apt. No:10 K:1 D:3 Ahmet Mh. Doğru Sk. Yıldırım/Bursa</Text>
                 <Text style={styles.yoltarif}>Yol Tarifi</Text>
                 <Text style={styles.tarifOzet}>Arasından girip sağ tarafa dönülecek.</Text>
             </View>
