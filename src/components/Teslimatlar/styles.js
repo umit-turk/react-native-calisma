@@ -1,0 +1,100 @@
+import { StyleSheet } from "react-native";
+import { colors, fonts } from "../../constants";
+
+export const styles = StyleSheet.create({
+    deliverywithmap: {
+        width: 329,
+        height: 148,
+        marginTop: 22,
+        marginHorizontal: 23,
+        backgroundColor: "white",
+        borderRadius: 12
+    },
+    isimtarih: { flexDirection: "row"},
+    name: {
+        marginTop: 15,
+        marginLeft: 15,
+        marginRight: 42,
+        marginBottom: 5,
+        fontSize: fonts.H4,
+        lineHeight: 21,
+        fontFamily: fonts.PoppinsMedium,
+        color: colors.b4F4F4F,
+    },
+    date: {
+        marginTop: 15,
+        marginRight: 15,
+        lineHeight: 21,
+        fontFamily: fonts.PoppinsMedium,
+        color: colors. b828282,
+        fontSize: fonts.H4,
+    },
+    address: {
+        marginLeft: 15,
+        marginRight: 14,
+        fontFamily: fonts.PoppinsMedium,
+        fontSize: fonts.H4,
+        color: colors.b4F4F4F,
+        lineHeight: 21,
+    },
+    amount: {
+        marginLeft: 191,
+        marginTop: 10,
+        marginRight: 15,
+        marginBottom: 10,
+        lineHeight: 21,
+        fontFamily: fonts.PoppinsMedium,
+        color: colors.b6FCF97,
+    },
+    bottomInfo: {
+        flexDirection: "row",
+    },
+    plaka: {
+        marginLeft: 15,
+        marginRight: 10,
+        marginBottom: 15,
+        backgroundColor: colors.bF1F8FD,
+        width: 90,
+        height: 30,
+        borderRadius: 30,
+    },
+    plakaText: {
+        fontFamily: fonts.PoppinsMedium,
+        lineHeight: 21,
+        color: colors.b4FABEA,
+        paddingHorizontal: 12,
+        marginTop: 4.89,
+        marginBottom: 4.58,
+        fontSize: fonts.H4,
+    },
+    bottomAdress: {
+        width: 158,
+        height: 30,
+        borderRadius: 30,
+        backgroundColor: colors.bF8F0FB,
+    },
+    bottomAddressText: {
+        lineHeight: 21,
+        fontSize: fonts.H4,
+        paddingLeft: 12,
+        paddingTop: 5,
+        paddingRight: 16,
+        paddingBottom: 4,
+        fontFamily: fonts.PoppinsMedium,
+        color: colors.bBB6BD9,
+    },
+    bottomMap: {
+        width: 30,
+        height: 30,
+        marginLeft: 10,
+        marginRight: 16,
+        marginBottom: 15,
+       backgroundColor: "rgba(187, 107, 217, 0.1)",
+       borderRadius: 30,
+    },
+    bottomMapPin: {
+        padding: 7,
+        color: colors.bBB6BD9,
+        fontSize: fonts.H3,
+    }
+})
